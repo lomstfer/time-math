@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+}
+
+#wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.time_row {
+    display: flex;
+    align-items: center;
+    gap: 1px;
+}
+
+.time_separator {
+    font-size: 100px;
+    text-align: center;
+    text-justify: center;
+}
+
+input {
+    width: 200px;
+    height: 150px;
+    font-size: 80px;
+    border: none;
+    background-color: rgb(243, 243, 243);
+    border-radius: 5px;
+    text-align: center;
+    /* caret-color: rgba(137, 43, 226, 0); */
+}
+
+input:focus {
+    outline: none;
+    background-color: rgb(233, 233, 233);
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+button {
+    width: 70px;
+    height: 70px;
+    font-size: 50px;
+    text-align: center;
+    border: none;
+    background-color: rgb(200, 205, 237);
+    border-radius: 100px;
+}
+
+button:active {
+    filter: brightness(0.5);
+}
